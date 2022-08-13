@@ -1,8 +1,9 @@
-# build the docker image
 
-docker build -f Dockerfile-ubuntu18 -t ubuntu:18.04
+```
+Usage: ./docker.sh <arguments>
 
-
-# run docker container
-
-docker run -it ubuntu:18.04
+Arguments:
+    -r      : run docker container
+    -b      : build docker image
+    -h      : show this help info
+```
